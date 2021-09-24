@@ -8,6 +8,7 @@
 }
 
 body {
+  max-width: 100%;
   margin: 10px auto;
   font-family: var(--font-family);
 }
@@ -116,6 +117,11 @@ p {
   font-size: 45px;
 }
 
+.h2-weather,
+.h2-yogurt {
+  margin-top: 20px;
+}
+
 .button-yogaApp,
 .button-weatherApp,
 .button-yogurtApp {
@@ -149,6 +155,7 @@ p {
   justify-content: center;
   border: 3px solid white;
   margin: 10px;
+  padding: 5px;
   box-shadow: var(--box-shadow);
 }
 
